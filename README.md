@@ -6,6 +6,7 @@ Written in Python and Shell-Script
 - Install all dependencies:
 ```bash
 sudo dnf install git python3
+pip install requests
 ```
 
 - Clone GitHub repository to your pc:
