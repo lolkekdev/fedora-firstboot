@@ -1,13 +1,16 @@
-import os
+import subprocess
+
 
 def console():
-    os.system("chmod +x console.sh")
-    os.system("./console.sh")
+    subprocess.call(["sh", "chmod +x console.sh"])
+    subprocess.call(["sh", "./console.sh"])
+
 
 def codecs():
-    os.system("chmod +x codecs.sh")
-    os.system("./codecs.sh")
+    subprocess.call(["sh", "chmod +x codecs.sh"])
+    subprocess.call(["sh", "./codecs.sh"])
 
-def nvidiadrivers():
-    os.system("chmod +x nvidia.sh")
-    os.system("./nvidia.sh")
+
+def greendrivers():
+    subprocess.call(["sh", "chmod +x nvidia.sh"])
+    subprocess.call(["sh", "./nvidia.sh"])

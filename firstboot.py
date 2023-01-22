@@ -68,7 +68,7 @@ def thirdstep():
             print("Your drivers are already in kernel :)")
             pass
         elif selection == "nvid":
-            scripts.launcher.nvidiadrivers()
+            scripts.launcher.greendrivers()
             os.system("clear")
             print("Please, reboot after finishing!")
         else:
